@@ -23,7 +23,7 @@ const WelcomePage = () => {
     event.preventDefault();
     // Validate inputs
     if (!idNumber || isNaN(idNumber) || !regulatorSetting || isNaN(regulatorSetting)) {
-      alert('Please enter valid numbers for both ID and regulator setting.');
+      alert('Please enter valid numbers for both ID and regulator settings.');
       return;
     }
 
