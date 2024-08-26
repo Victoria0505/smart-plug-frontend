@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Route, Routes, /*Link*/ } from 'react-router-dom';
 import WelcomePage from './components/WelcomePage.jsx';
 import ThingSpeakData from './components/TemperatureDisplay.jsx';
+import './App.css';
 
 
 function App() {
