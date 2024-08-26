@@ -1,4 +1,3 @@
-/* src/components/WelcomePage.css */
 
 .welcome-container {
     display: flex;
@@ -7,9 +6,9 @@
     justify-content: center;
     height: 100vh;
     background-image: url('./assets/image.png'), linear-gradient(to right, rgba(255, 235, 238, 0.6), rgba(252, 228, 236, 0.6));
-    background-size: cover, cover; /* Ensures both image and gradient cover the container */
-    background-position: center, center; /* Centers the image and gradient */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover, cover; 
+    background-position: center, center; 
+    background-repeat: no-repeat; 
     padding: 20px;
 }
 
@@ -52,5 +51,5 @@
 }
 
 .welcome-button:hover {
-    background-color: #e91e63; /* A darker shade for hover effect */
+    background-color: #e91e63; 
 }
